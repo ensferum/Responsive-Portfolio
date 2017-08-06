@@ -1,4 +1,4 @@
-/* Styling for my basic portfolio page */ 
+/* Styling for my basic portfolio page */
 
 body {
     position: relative;
@@ -9,13 +9,11 @@ body {
 }
 
 
-
 p {
 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 200%;
 }
-
 
 h1 {
 
@@ -71,16 +69,11 @@ hr {
 }
 
 
-
-
-
-
-
 /* My name header */
 
 .wrapper {
-
-    margin: auto;
+    width: 960px;
+    margin: 0px auto;
     background-color: white;
     border-bottom: solid 1px #cccccc;
 }
@@ -88,10 +81,6 @@ hr {
 .myname {
     float: left;
 }
-
-
-
-
 
 
 /* Links to other pages on my website */
@@ -104,9 +93,6 @@ hr {
     float: right;
     margin-right: 45px;
 }
-
-
-
 
 
 
@@ -127,11 +113,6 @@ hr {
 
 
 
-
-
-
-
-
 /* Icon links to my online profiles */
 
 .connectwithme_container {
@@ -147,23 +128,12 @@ hr {
 }
 
 
-
-
-
-
-
 /* Main page profile pic */
 
 .bio-image {
     float: left;
     margin: 10px;
 }
-
-
-
-
-
-
 
 
 /* Content for my pages */
@@ -179,11 +149,6 @@ hr {
     /*margin-bottom: 200px;*/
     border: solid 1px #dddddd
 }
-
-
-
-
-
 
 
 
@@ -203,9 +168,6 @@ hr {
 }
 
 
-
-
-
 /* Gallery text over pics in the portfolio page */
 
 .gallery1,
@@ -219,8 +181,6 @@ hr {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-
 
 
 /* Setting contact form size */
@@ -237,9 +197,6 @@ textarea {
 }
 
 
-
-
-
 /* Submit button styling */
 
 button {
@@ -252,10 +209,6 @@ button {
     border: none;
     background-color: #4aaaa5;
 }
-
-
-
-
 
 
 /* Footer */
@@ -287,35 +240,83 @@ button {
     clear: both;
 }
 
-@media screen and (max-width: 640px) {
-    head,
-    .namemerge,
-    .connectwithme_container,
-    .mainContent
-    .footer,
+
+@media screen and (max-width:979px) {
+
     .wrapper {
+        width: 70%;
+    }
+
+    .mainContent {
+        width: 70%;
+    }
+
+    .connectwithme_container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 768px) {
-    head,
-    .namemerge,
-    .connectwithme_container,
-    .mainContent, 
-    .footer,
-    .wrapper{
+@media screen and (max-width:768px) {
+    .wrapper {
+        width: 70%;
+    }
+
+    .mainContent {
+        width: 100%;
+    }
+
+    .connectwithme_container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .myname {
+        width: 100%;
+        text-align: center;
+    }
+    .headercontainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 980px) {
-    head,
-    .namemerge,
-    .connectwithme_container,
-    .mainContent,
-    .footer,
+
+
+@media screen and (max-width:640px) {
+
     .wrapper {
+        width: 70%;
+    }
+    .mainContent {
+        width: 100%;
+    }
+
+    .connectwithme_container {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .myname {
+        width: 100%;
+        text-align: center;
+    }
+    .headercontainer {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .footer {
         width: 100%;
     }
 }
