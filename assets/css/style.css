@@ -1,4 +1,4 @@
-/* Styling for my basic portfolio page */
+/* Styling for my basic portfolio page */ 
 
 body {
     position: relative;
@@ -75,6 +75,7 @@ hr {
 
 
 
+
 /* My name header */
 
 .wrapper {
@@ -92,6 +93,7 @@ hr {
 
 
 
+
 /* Links to other pages on my website */
 
 .header_container {
@@ -102,6 +104,7 @@ hr {
     float: right;
     margin-right: 45px;
 }
+
 
 
 
@@ -128,6 +131,7 @@ hr {
 
 
 
+
 /* Icon links to my online profiles */
 
 .connectwithme_container {
@@ -147,12 +151,14 @@ hr {
 
 
 
+
 /* Main page profile pic */
 
 .bio-image {
     float: left;
     margin: 10px;
 }
+
 
 
 
@@ -170,9 +176,10 @@ hr {
     width: 610px;
     float: left;
     margin-top: 20px;
-    
+    margin-bottom: 200px;
     border: solid 1px #dddddd
 }
+
 
 
 
@@ -198,6 +205,7 @@ hr {
 
 
 
+
 /* Gallery text over pics in the portfolio page */
 
 .gallery1,
@@ -211,6 +219,7 @@ hr {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 
 
@@ -230,6 +239,7 @@ textarea {
 
 
 
+
 /* Submit button styling */
 
 button {
@@ -242,6 +252,7 @@ button {
     border: none;
     background-color: #4aaaa5;
 }
+
 
 
 
@@ -277,29 +288,34 @@ button {
 }
 
 @media screen and (max-width: 640px) {
-    
-     .connectwithme_container,
-     .mainContent {
+    head,
+    .namemerge,
+    .connectwithme_container,
+    .mainContent
+    .footer,
+    .wrapper {
         width: 100%;
-       
     }
 }
 
 @media screen and (max-width: 768px) {
-    
-     .connectwithme_container,
-     .mainContent {
+    head,
+    .namemerge,
+    .connectwithme_container,
+    .mainContent, 
+    .footer,
+    .wrapper{
         width: 100%;
-       
     }
 }
 
 @media screen and (max-width: 980px) {
-    
-     .connectwithme_container,
-     .mainContent {
+    head,
+    .namemerge,
+    .connectwithme_container,
+    .mainContent,
+    .footer,
+    .wrapper {
         width: 100%;
     }
-     
 }
-
