@@ -1,0 +1,81 @@
+<!-- Contact page for my Basic-Portfolio-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Contact Me</title>
+    <link rel="icon" href="assets/images/oceanic.png">
+    <!-- Resetting and Referencing my CSS style sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="namemerge">
+            <div class="myname">
+                <h1>Brian Yack</h1>
+            </div>
+            <!--Making the header links for my page-->
+            <div class="header_container">
+                <!-- Links to my other pages on the header-->
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="sidebar">
+           
+            <!-- Contact body -->
+            <div class="mainContent">
+                <h2>Contact</h2>
+                <br>
+                <hr>
+                <br>
+                <form action="contact.html" method="post">
+                    <div>
+                        <label for="name">Name </label>
+                        <input type="text" id="name" name="user_name" placeholder=" John Smith">
+                        <br>
+                        <br>
+                    </div>
+                    <div>
+                        <label for="mail">Email </label>
+                        <input type="email" id="mail" name="user_mail" placeholder=" example@gmail.com">
+                        <br>
+                        <br>
+                    </div>
+                    <div>
+                        <label for="message">Message </label>
+                        <textarea id="msg" name="user_message"></textarea>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+             <!-- Connect with me on Github, Linkedin, Stackoverflow -->
+            <div class="connectwithme_container">
+                <h3>Connect with Me</h3>
+                <hr>
+                <br>
+                <a href="https://github.com/ensferum/" target="_blank">
+                <img class="github" src ="assets/images/github.png" alt ="Github" height="75" width ="75"></a>
+                <a href="https://www.linkedin.com/in/brianyack/" target="_blank">
+                <img class="linkedin" src ="assets/images/linkedin.png" alt ="Linkedin" height="75" width ="75"></a>
+                <a href="https://stackoverflow.com/users/8195335/bdyack" target="_blank">
+                <img class="overflow" src ="assets/images/overflow.png" alt ="Stackoverflow" height="75" width ="75"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        © Copyright 2016 Brian Yack
+    </div>
+</body>
+
+</html>
