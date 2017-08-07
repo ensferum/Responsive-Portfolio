@@ -173,7 +173,6 @@ hr {
     margin-right: 10px;
     float: left;
     padding: 10px;
-    background-color: white;
 }
 
 
@@ -288,6 +287,7 @@ button {
         margin:auto;
         padding-right:3%;
         float:none;
+        background-color: white;
        
     }
 
@@ -296,7 +296,28 @@ button {
         margin: 20px 20px;
         text-align: center;
         margin:auto;
+        float: left;
     }
+
+    .row1,
+    .row2,
+    .row3
+    {
+        background-color: white;
+        float:left;
+
+    }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5 {
+        width: 50%;
+        float: left;
+        overflow:auto;
+    }
+
 
     .namemerge {
         width: 100%;
@@ -329,7 +350,15 @@ button {
         margin:auto;
         margin: 20px 20px;
     }
-
+    
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5 {
+        width: 100%;
+        float: none;
+    }
     .namemerge {
         width: 100%;
         text-align: center;
