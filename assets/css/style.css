@@ -105,8 +105,8 @@ hr {
     margin: auto;
 }
 
-.sidebar,
-.contactmerge {
+.fullpage,
+           {
     width: 960px;
     margin: auto;
 }
@@ -121,8 +121,9 @@ hr {
     color: #4aaaa5;
     background-color: #ffffff;
     padding: 0 10px 10px 10px;
-    width: 250px;
+    width: 18%;
     float: right;
+    margin-right: 24.5%;
     text-align: center;
     margin-top: 20px;
 }
@@ -133,6 +134,8 @@ hr {
 .bio-image {
     float: left;
     margin: 10px;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -143,9 +146,10 @@ hr {
     border: 1px solid #dddddd;
     background-color: #ffffff;
     padding: 20px;
-    width: 610px;
+    width: 28%;
     float: left;
     margin-top: 20px;
+    margin-left: 25%;
     /*margin-bottom: 200px;*/
     border: solid 1px #dddddd
 }
@@ -243,8 +247,9 @@ button {
 
 @media screen and (max-width:979px) {
 
-    .wrapper {
-        width: 70%;
+    .namemerge {
+        width: 100%;
+        text-align: center;
     }
 
     .mainContent {
@@ -262,10 +267,7 @@ button {
 }
 
 @media screen and (max-width:768px) {
-    .wrapper {
-        width: 70%;
-    }
-
+    
     .mainContent {
         width: 100%;
     }
@@ -275,7 +277,7 @@ button {
         margin-top: 20px;
     }
 
-    .myname {
+    .namemerge {
         width: 100%;
         text-align: center;
     }
@@ -293,9 +295,7 @@ button {
 
 @media screen and (max-width:640px) {
 
-    .wrapper {
-        width: 70%;
-    }
+    
     .mainContent {
         width: 100%;
     }
@@ -306,7 +306,7 @@ button {
         margin-top: 20px;
     }
 
-    .myname {
+    .namemerge {
         width: 100%;
         text-align: center;
     }
