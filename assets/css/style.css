@@ -1,5 +1,7 @@
 /* Styling for my basic portfolio page */
-
+.portfolipic{
+    width:100%
+}
 body {
     position: relative;
     font-size: 18px;
@@ -57,7 +59,7 @@ h4 {
     position: absolute;
     bottom: 0px;
     font-weight: lighter;
-    width: 275px;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     background: #4aaaa5;
@@ -128,10 +130,9 @@ hr {
     padding: 0 10px 10px 10px;
     width:;
     float: right;
-    margin-right:10%;
+    margin-right: 24.5;
     text-align: center;
     margin-top: 20px;
-    overflow: auto;
 }
 
 
@@ -172,6 +173,7 @@ hr {
     margin-right: 10px;
     float: left;
     padding: 10px;
+    background-color: white;
 }
 
 
@@ -193,9 +195,7 @@ hr {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
-    
 }
-
 
 
 
@@ -258,9 +258,6 @@ button {
 }
 
 
-
-
-
 @media screen and (max-width:979px) {
 
     .namemerge {
@@ -271,11 +268,12 @@ button {
     .mainContent {
         width: 70%;
         margin-top: 20px;
-        overflow:auto;
+        margin-left: 25%;
     }
 
     .connectwithme_container {
         margin:auto;
+        margin: 20px 20px;
     }
 
     .footer {
@@ -286,21 +284,18 @@ button {
 @media screen and (max-width:768px) {
 
     .mainContent {
+        style.css:255;
         margin:auto;
-        overflow:auto;
+        padding-right:3%;
         float:none;
-        width:80%;
-        margin-top: 20px;
        
     }
 
     .connectwithme_container {
-       
-        text-align: center;
         width: 100%;
+        margin: 20px 20px;
+        text-align: center;
         margin:auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .namemerge {
@@ -325,60 +320,25 @@ button {
 
     .mainContent {
         margin:auto;
-        margin-top: 20px;
+        padding-right:3%;
     }
-    
+
     .connectwithme_container {
         text-align: center;
         width: 100%;
         margin:auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        
-    }
-
-    .gallery1{
-
-        width:100%;
-    }
-    .gallery2{
-
-        width:100%;
-    }
-    .gallery3{
-
-        width:100%;
-    }
-    .gallery4{
-
-        width:100%;
-    }
-    .gallery5{
-
-        width:100%;
-    }
-
-    .row1{
-        width:100%;
-    }
-
-    .row2{
-        width:100%;
-    }
-
-    .row3{
-        width:100%;
+        margin: 20px 20px;
     }
 
     .namemerge {
         width: 100%;
         text-align: center;
+        padding-right: 3%;
     }
     .headercontainer {
         width: 100%;
         text-align: center;
     }
-}
 
 
     .footer {
