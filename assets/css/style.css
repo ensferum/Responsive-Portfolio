@@ -126,9 +126,9 @@ hr {
     color: #4aaaa5;
     background-color: #ffffff;
     padding: 0 10px 10px 10px;
-    width: 18%;
+    width:;
     float: right;
-    margin-right: 24.5%;
+    margin-right: 24.5;
     text-align: center;
     margin-top: 20px;
 }
@@ -269,8 +269,8 @@ button {
     }
 
     .connectwithme_container {
-        width: 100%;
-        margin-top: 20px;
+        margin:auto;
+        margin: 20px 20px;
     }
 
     .footer {
@@ -290,8 +290,9 @@ button {
 
     .connectwithme_container {
         width: 100%;
-        margin-top: 20px;
+        margin: 20px 20px;
         text-align: center;
+        margin:auto;
     }
 
     .namemerge {
@@ -322,7 +323,8 @@ button {
     .connectwithme_container {
         text-align: center;
         width: 100%;
-        margin-top: 20px;
+        margin:auto;
+        margin: 20px 20px;
     }
 
     .namemerge {
