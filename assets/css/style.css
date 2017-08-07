@@ -128,9 +128,9 @@ hr {
     padding: 0 10px 10px 10px;
     width:;
     float: right;
-    margin-right: 24.5;
     text-align: center;
     margin-top: 20px;
+    overflow: auto;
 }
 
 
@@ -270,7 +270,6 @@ button {
 
     .connectwithme_container {
         margin:auto;
-        margin: 20px 20px;
     }
 
     .footer {
@@ -281,7 +280,6 @@ button {
 @media screen and (max-width:768px) {
 
     .mainContent {
-        style.css:255;
         margin:auto;
         padding-right:3%;
         float:none;
@@ -289,9 +287,9 @@ button {
     }
 
     .connectwithme_container {
-        width: 100%;
-        margin: 20px 20px;
+       
         text-align: center;
+        width: 100%;
         margin:auto;
     }
 
@@ -324,7 +322,7 @@ button {
         text-align: center;
         width: 100%;
         margin:auto;
-        margin: 20px 20px;
+        
     }
 
     .namemerge {
