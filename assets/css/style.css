@@ -69,18 +69,21 @@ hr {
 }
 
 
+
 /* My name header */
 
 .wrapper {
     width: 100%;
-    margin: 0px auto;
-    background-color: white;
+    margin: auto;
     border-bottom: solid 1px #cccccc;
+    overflow: auto;
 }
 
 .myname {
     float: left;
+    overflow:auto;
 }
+
 
 
 /* Links to other pages on my website */
@@ -96,6 +99,7 @@ hr {
 
 
 
+
 /* Merging my name and website links */
 
 .namemerge {
@@ -106,10 +110,11 @@ hr {
 }
 
 .fullpage,
-           {
+{
     width: 80%;
     margin: auto;
 }
+
 
 
 
@@ -129,6 +134,7 @@ hr {
 }
 
 
+
 /* Main page profile pic */
 
 .bio-image {
@@ -137,6 +143,7 @@ hr {
     width: 50%;
     height: 50%;
 }
+
 
 
 /* Content for my pages */
@@ -150,9 +157,9 @@ hr {
     float: left;
     margin-top: 20px;
     margin-left: 25%;
-    /*margin-bottom: 200px;*/
     border: solid 1px #dddddd
 }
+
 
 
 
@@ -172,6 +179,7 @@ hr {
 }
 
 
+
 /* Gallery text over pics in the portfolio page */
 
 .gallery1,
@@ -187,18 +195,20 @@ hr {
 }
 
 
+
 /* Setting contact form size */
 
 #name,
 #mail {
-    width: 590px;
-    height: 30px;
+    width: auto;
+    height: auto;
 }
 
 textarea {
-    width: 590px;
-    height: 300px;
+    width: auto;
+    height: auto;
 }
+
 
 
 /* Submit button styling */
@@ -213,6 +223,7 @@ button {
     border: none;
     background-color: #4aaaa5;
 }
+
 
 
 /* Footer */
@@ -231,7 +242,6 @@ button {
     clear: both;
     text-align: center;
     width: 100%;
-    position: fixed;
     /* Sticky footer */
     bottom: 0;
     left: 0;
@@ -254,6 +264,8 @@ button {
 
     .mainContent {
         width: 70%;
+        margin-top: 20px;
+        margin-left: 25%;
     }
 
     .connectwithme_container {
@@ -267,19 +279,25 @@ button {
 }
 
 @media screen and (max-width:768px) {
-    
+
     .mainContent {
-        width: 100%;
+        style.css:255;
+        margin:auto;
+        padding-right:3%;
+        float:none;
+       
     }
 
     .connectwithme_container {
         width: 100%;
         margin-top: 20px;
+        text-align: center;
     }
 
     .namemerge {
         width: 100%;
         text-align: center;
+        padding-right: 3%;
     }
     .headercontainer {
         width: 100%;
@@ -295,9 +313,10 @@ button {
 
 @media screen and (max-width:640px) {
 
-    
+
     .mainContent {
-        width: 100%;
+        margin:auto;
+        padding-right:3%;
     }
 
     .connectwithme_container {
@@ -309,6 +328,7 @@ button {
     .namemerge {
         width: 100%;
         text-align: center;
+        padding-right: 3%;
     }
     .headercontainer {
         width: 100%;
