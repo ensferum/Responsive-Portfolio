@@ -128,6 +128,7 @@ hr {
     padding: 0 10px 10px 10px;
     width:;
     float: right;
+    margin-right:10%;
     text-align: center;
     margin-top: 20px;
     overflow: auto;
@@ -192,7 +193,9 @@ hr {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
+
 
 
 
@@ -255,6 +258,9 @@ button {
 }
 
 
+
+
+
 @media screen and (max-width:979px) {
 
     .namemerge {
@@ -265,7 +271,7 @@ button {
     .mainContent {
         width: 70%;
         margin-top: 20px;
-        margin-left: 25%;
+        overflow:auto;
     }
 
     .connectwithme_container {
@@ -281,8 +287,10 @@ button {
 
     .mainContent {
         margin:auto;
-        padding-right:3%;
+        overflow:auto;
         float:none;
+        width:80%;
+        margin-top: 20px;
        
     }
 
@@ -291,6 +299,8 @@ button {
         text-align: center;
         width: 100%;
         margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .namemerge {
@@ -315,20 +325,21 @@ button {
 
     .mainContent {
         margin:auto;
-        padding-right:3%;
+        margin-top: 20px;
     }
-
+    
     .connectwithme_container {
         text-align: center;
         width: 100%;
         margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         
     }
 
     .namemerge {
         width: 100%;
         text-align: center;
-        padding-right: 3%;
     }
     .headercontainer {
         width: 100%;
