@@ -337,6 +337,39 @@ button {
         
     }
 
+    .gallery1{
+
+        width:100%;
+    }
+    .gallery2{
+
+        width:100%;
+    }
+    .gallery3{
+
+        width:100%;
+    }
+    .gallery4{
+
+        width:100%;
+    }
+    .gallery5{
+
+        width:100%;
+    }
+
+    .row1{
+        width:100%;
+    }
+
+    .row2{
+        width:100%;
+    }
+
+    .row3{
+        width:100%;
+    }
+
     .namemerge {
         width: 100%;
         text-align: center;
@@ -345,6 +378,7 @@ button {
         width: 100%;
         text-align: center;
     }
+}
 
 
     .footer {
