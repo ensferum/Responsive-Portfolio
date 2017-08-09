@@ -256,6 +256,8 @@ button {
     clear: both;
 }
 
+/* Media Queries */
+
 
 @media screen and (max-width:979px) {
 
